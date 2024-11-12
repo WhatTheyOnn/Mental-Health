@@ -354,3 +354,80 @@ footer {
         align-items: center;
         gap: 30px;}
 }
+#social-media-section {
+    background: linear-gradient(135deg, rgba(66, 133, 244, 0.1), rgba(245, 66, 133, 0.1));
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 60px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#social-media-section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-align: center;
+    width: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social-icon img {
+    width: 70px;  /* Reduced image size */
+    height: 70px; /* Ensures square image */
+    object-fit: cover;  /* Keeps aspect ratio while covering the area */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.social-icon p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* Hover Effects */
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon:hover p {
+    color: #4285f4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        width: 150px;  /* Make icons a bit bigger for small screens */
+        margin-bottom: 20px;
+    }
+
+    .social-icon img {
+        width: 50px;  /* Reduce the image size for smaller screens */
+        height: 50px;
+    }
+}
