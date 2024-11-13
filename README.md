@@ -37,8 +37,9 @@ I had issues with the navbar burger button. once the nav bar was extended on the
 
 I also had issues with making the overlay text on the image smaller for the mobile i was unable to do it and i am stil trying to find a way to make it mobile friendly.
 
-I had issues with the navbar and making it the same gradient all the way through once i added the bootstarp nav button for mobile it moved the whole navbar options 
+I had issues with the navbar and making it the same gradient all the way through once i added the bootstarp nav button for mobile it moved the whole navbar options into the top left corner and also created a white box around the text making the navbar look strange showing 2 colours. I had to innovate and make the white box a more stronger gradient which made it look like it was popping out, this was totally unintended but i kept it in because mistakes make something unique.
 
+When the nav bar was moved to the top left, I struggled to move it back. even though i planned for the website heading and the nav options to be seperate in the wireframes i chose to deal with it and focus on other important things.
 
 
 
