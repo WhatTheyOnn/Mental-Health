@@ -48,3 +48,17 @@ When the nav bar was moved to the top left, I struggled to move it back. even th
 ![Desktop Wireframes](/readmeimages/Websitewirframes.png)
 
 ![Mobile Wireframes](/readmeimages/mobilewireframes.png)
+
+# user stories
+
+As a first-time visitor, I want to feel welcomed and easily understand what the website offers so that I feel comfortable exploring more.
+
+As someone looking for mental health support, I want to find clear information about different mental health resources so I can quickly figure out what might help me.
+
+As a user interested in learning more about mental health, I want easy access to articles and information that I can read to help me understand more about mental health.
+
+As a person struggling with mental health, I want to find tools or exercises I can try on my own, like breathing exercises or journal prompts, so I can feel some relief immediately.
+
+As a returning user, I want the site to be easy to navigate so that I can quickly access resources or contacts I can use without getting frustrated.
+
+As a mobile user, I want to have the same easy experience on my phone as on my computer, so I can access information anywhere without issues.
